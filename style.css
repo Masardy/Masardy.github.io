@@ -1,0 +1,82 @@
+.container{
+  border:2px solid black;
+  border-radius:24px;
+}
+.container,#github,ul{
+  display: flex;
+  align-items: center;
+  justify-content: justify;
+  text-decoration: none;
+  text-decoration-color: white;
+  text-align: none;
+}
+#github{
+  font-size: 110%;
+  margin-left:20px;
+  
+  
+}
+ul{
+  list-style: none;
+  text-decoration: none;
+  gap:28px;
+  color:white;
+  font-size: 15px;
+  width: 50%;
+}
+li{
+  font-weight:bold;
+}
+a{
+  text-decoration: none;
+  color: #000000;
+}
+.fill{
+  gap: 35px;
+}
+.imgatas{
+  padding-top: 25px;
+  width:45%;
+}
+.imgbawah{
+  width: 149px;
+  height:200px;
+}
+.imgtengah{
+  width: 50%;
+  height:150px;
+}
+.imgatas,.imgtengah,.imgbawah{
+  border-radius:20px;
+}
+.atas{
+  gap:5px;
+}
+.patas{
+  padding-top:25px;
+}
+.imgatas,.atas{
+  display:flex;
+  justify-content:center ;
+  align-items: center;
+}
+.tengah{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:7px;
+}
+.ptengah{
+  padding-top: 30px;
+}
+.bawah{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px
+}
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+.patas,.ptengah,.pbawah{
+  font-family:"Libre Baskerville",sans-serif;
+  font-size:14px;
+}
